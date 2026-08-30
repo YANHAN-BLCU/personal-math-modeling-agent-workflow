@@ -1,0 +1,18 @@
+{
+  "catalogVersion": "2026.08.23.1",
+  "python": ".venv/Scripts/python.exe",
+  "algorithms": [
+    {"id":"topsis","name":"TOPSIS 综合评价","package":"pymcdm","version":">=1.3,<2","group":"decision"},
+    {"id":"linear-regression","name":"线性回归","package":"scikit-learn","version":">=1.5,<2","group":"ml"},
+    {"id":"random-forest-regression","name":"随机森林回归","package":"scikit-learn","version":">=1.5,<2","group":"ml"},
+    {"id":"arima","name":"ARIMA 时间序列预测","package":"statsmodels","version":">=0.14,<1","group":"statistics"},
+    {"id":"logistic-regression","name":"逻辑回归分类","package":"scikit-learn","version":">=1.5,<2","group":"ml"},
+    {"id":"k-means","name":"K-Means 聚类","package":"scikit-learn","version":">=1.5,<2","group":"ml"},
+    {"id":"pca","name":"主成分分析 PCA","package":"scikit-learn","version":">=1.5,<2","group":"ml"},
+    {"id":"linear-programming","name":"线性规划","package":"scipy","version":">=1.13,<2","group":"core"},
+    {"id":"particle-swarm","name":"粒子群优化 PSO","package":"mealpy","version":">=3.0,<4","group":"optimization"},
+    {"id":"genetic-algorithm","name":"遗传算法 GA","package":"mealpy","version":">=3.0,<4","group":"optimization"},
+    {"id":"nsga2","name":"NSGA-II 多目标优化","package":"pymoo","version":">=0.6,<1","group":"optimization"}
+  ]
+}
+

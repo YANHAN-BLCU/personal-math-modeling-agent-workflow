@@ -1,0 +1,15 @@
+models:
+  selection: session-default
+  reasoning_effort: high
+  allow_task_override: true
+  providers:
+    codex:
+      enabled: true
+      credentials: managed-by-codex
+    external_api:
+      enabled: false
+      credentials: environment-only
+rules:
+  never_store_secrets_in_project: true
+  use_one_authoritative_result_source: true
+

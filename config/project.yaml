@@ -1,0 +1,25 @@
+project:
+  name: mathmodel-codex
+  root: F:/数模
+  language: zh-CN
+  contest: null
+  edition: null
+  deliverables:
+    word: true
+    latex: false
+    reproducibility_manifest: true
+  paths:
+    problems: problems
+    projects: projects
+    knowledge: knowledge
+    templates: templates
+    python: .venv/Scripts/python.exe
+policy:
+  activate_skills_on_demand: true
+  preserve_inputs: true
+  require_official_rules: true
+  excluded_integrations:
+    - feishu
+    - wechat
+    - mathmodel-browser-bridge
+

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "activation": "on-demand",
+  "excluded": ["feishu", "wechat", "mathmodel-browser-bridge"],
+  "skills": {
+    "bundled": ["data-search","doctor","math-modeling","mathmodel-figure-templates","metaheuristic-optimization","mma-figure","mma-paper","mma-review","nature-figure","paper-diagram","paper-search","paper-sharing","skill-creator"],
+    "recommended": ["bzd-problem-translator","bzd-problem-restatement","bzd-modeling-ideas","bzd-problem-analysis-checker","bzd-abstract-checker","bzd-review-paper","bzd-cumcm-school-awards","statistical-analysis","pymoo","matlab","scikit-learn","humanizer-zh","scipilot-figure-skill","scientific-figure-making","find-skills"]
+  },
+  "algorithms": {"catalog":"config/algorithms.json","environment":".venv"},
+  "plugins": {
+    "project": ["mathmodel-codex"],
+    "requiredCodex": ["documents","pdf","spreadsheets","latex","github"]
+  },
+  "connectors": [
+    {"id":"arxiv","state":"installed","auth":"none","command":".tools/bin/arxiv-mcp-server.exe"},
+    {"id":"fetch","state":"installed","auth":"none","command":".tools/bin/mcp-server-fetch.exe"},
+    {"id":"context7","state":"installed","auth":"optional-environment"},
+    {"id":"zotero","state":"installed","auth":"local-or-environment","command":".tools/bin/zotero-mcp.exe"},
+    {"id":"github","state":"installed-global-plugin","auth":"managed-by-codex"}
+  ]
+}

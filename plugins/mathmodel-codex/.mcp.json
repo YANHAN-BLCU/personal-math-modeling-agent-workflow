@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "mathmodel-arxiv": {
+      "command": "F:\\数模\\.tools\\bin\\arxiv-mcp-server.exe",
+      "args": []
+    },
+    "mathmodel-fetch": {
+      "command": "F:\\数模\\.tools\\bin\\mcp-server-fetch.exe",
+      "args": []
+    },
+    "mathmodel-context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "mathmodel-zotero": {
+      "command": "F:\\数模\\.tools\\bin\\zotero-mcp.exe",
+      "args": [],
+      "env": {
+        "ZOTERO_LOCAL": "true"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+gates:
+  M1:
+    stage: modeling
+    required: true
+    unlocks: programming
+  P1:
+    stage: minimal-runnable-slice
+    required: true
+    unlocks: full-compute-and-figures
+  P2:
+    stage: programming
+    required: true
+    unlocks: paper-planning
+  W1:
+    stage: claim-evidence-outline
+    required: true
+    unlocks: long-form-writing
+  W2:
+    stage: paper
+    required: true
+    unlocks: final-delivery
+validation:
+  warnings_are_blocking: true
+  rerun_after_material_change: true
+  require_independent_reviewer: true
+

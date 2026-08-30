@@ -1,0 +1,8 @@
+personality = "friendly"
+
+[features]
+codex_hooks = false
+
+# 项目插件通过 .agents/plugins/marketplace.json 安装。
+# MCP 连接器由插件的 .mcp.json 提供；凭据只使用环境变量或 Codex 安全配置。
+

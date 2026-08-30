@@ -1,0 +1,20 @@
+{
+  "name": "mathmodel-project",
+  "interface": {
+    "displayName": "MathModel Project"
+  },
+  "plugins": [
+    {
+      "name": "mathmodel-codex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mathmodel-codex"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_USE"
+      },
+      "category": "Education"
+    }
+  ]
+}

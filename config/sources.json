@@ -1,0 +1,25 @@
+{
+  "bundledSkills": {
+    "source": "MathModel Desktop 0.0.14",
+    "names": ["data-search","doctor","mathmodel-figure-templates","metaheuristic-optimization","mma-figure","mma-paper","mma-review","nature-figure","paper-diagram","paper-search","paper-sharing","skill-creator"]
+  },
+  "projectWorkflow": {
+    "source": "C:/Users/17009/.codex/skills/math-modeling",
+    "name": "math-modeling"
+  },
+  "recommendedSkills": [
+    {"repo":"BZDmathclub/bzd-math-modeling-skills","skills":["bzd-problem-translator","bzd-problem-restatement","bzd-modeling-ideas","bzd-problem-analysis-checker","bzd-abstract-checker","bzd-review-paper","bzd-cumcm-school-awards"]},
+    {"repo":"K-Dense-AI/scientific-agent-skills","skills":["statistical-analysis","pymoo","matlab","scikit-learn"]},
+    {"repo":"op7418/Humanizer-zh","skills":["humanizer-zh"]},
+    {"repo":"Haojae/scipilot-figure-skill","skills":["scipilot-figure-skill"]},
+    {"repo":"ChenLiu-1996/figures4papers","skills":["scientific-figure-making"]},
+    {"repo":"vercel-labs/skills","skills":["find-skills"]}
+  ],
+  "connectors": [
+    {"package":"arxiv-mcp-server","version":"0.7.2"},
+    {"package":"mcp-server-fetch","version":"2026.8.18"},
+    {"package":"zotero-mcp","version":"0.3.1"},
+    {"url":"https://mcp.context7.com/mcp"}
+  ]
+}
+

@@ -1,0 +1,27 @@
+{
+  "name": "mathmodel-codex",
+  "version": "1.0.0+codex.20260830100512",
+  "description": "Codex-native mathematical modeling workflow, algorithms, scientific figures, paper tooling, and reproducibility gates.",
+  "author": {
+    "name": "MathModel Codex Project"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MathModel Codex",
+    "shortDescription": "\u6570\u5b66\u5efa\u6a21\u3001\u79d1\u7814\u5236\u56fe\u3001\u7b97\u6cd5\u6c42\u89e3\u4e0e\u8bba\u6587\u9a8c\u6536\u5de5\u4f5c\u6d41\u3002",
+    "longDescription": "\u5728 Codex \u4e2d\u539f\u751f\u8fd0\u884c\u9898\u76ee\u5206\u6790\u3001\u6a21\u578b\u8bbe\u8ba1\u3001\u4ee3\u7801\u6c42\u89e3\u3001\u79d1\u7814\u5236\u56fe\u3001\u8bba\u6587\u6784\u5efa\u3001\u590d\u73b0\u8bb0\u5f55\u53ca\u9636\u6bb5\u72ec\u7acb\u8d28\u68c0\u3002",
+    "developerName": "MathModel Codex Project",
+    "category": "Education",
+    "capabilities": [
+      "Write",
+      "Local tools",
+      "MCP"
+    ],
+    "defaultPrompt": [
+      "\u5b8c\u6210\u8fd9\u9053\u6570\u5b66\u5efa\u6a21\u9898\uff0c\u5e76\u6267\u884c\u5168\u90e8\u9636\u6bb5\u95e8\u7981\u3002",
+      "\u68c0\u67e5\u5f53\u524d\u9879\u76ee\u73af\u5883\u548c\u53ef\u590d\u73b0\u6027\u3002",
+      "\u6839\u636e\u771f\u5b9e\u7ed3\u679c\u751f\u6210\u79d1\u7814\u56fe\u8868\u548c\u8bba\u6587\u8349\u7a3f\u3002"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
